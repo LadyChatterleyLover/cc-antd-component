@@ -1,0 +1,21 @@
+/* 全局样式 */
+html, body, #root {
+  height: 100%;
+}
+.ant-layout {
+  min-height: 100%;
+}
+.ant-layout-sider-children {
+  background: #fff;
+}
+.notification-popover-inner-content .ant-popover-inner-content {
+  padding: 0 !important;
+}
+.notification-list-tab .ant-tabs-nav-list {
+  width: 100%;
+}
+.notification-list-tab .ant-tabs-tab {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
